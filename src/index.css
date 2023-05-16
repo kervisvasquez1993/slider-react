@@ -1,0 +1,70 @@
+#root {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.swiper.swiper-initialized.swiper-vertical.swiper-backface-hidden.mySwiper{
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.swiper-pagination {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: transparent;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.swiper-pagination-bullet-active{
+  background-color: blue;
+}
+
+.swiper-pagination-bullet {
+  padding: 10px;
+  width: 5px;
+  height: 5px;
+  margin: 10px !important;
+}

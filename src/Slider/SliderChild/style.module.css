@@ -1,0 +1,37 @@
+.containerSliderChild {
+    padding: 3rem;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.titleSlider {
+    font-weight: bold;
+    text-decoration-style: solid;
+    font-size: 6rem;
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    color: white;
+}
+
+
+
+.subrayado {
+    border-top: 20px solid #e36f7f;
+    text-align: left;
+}
+
+.contentSlider {
+    width: 40vw;
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 400;
+    color: white;
+
+}

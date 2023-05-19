@@ -18,6 +18,14 @@
     margin: 0;
     color: white;
 }
+.wrapContent{
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+    /* background-color: aqua; */
+}
 
 
 
